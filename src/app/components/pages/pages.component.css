@@ -1,3 +1,11 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.mat-toolbar {
+  background: #262826;
+  color: antiquewhite;
+}
+
 mat-sidenav-container {
   height: calc(100vh - 65px);
 }
@@ -10,7 +18,12 @@ mat-sidenav-container {
   padding: 16px;
   text-align: center;
 }
-
+.avatar {
+  margin-top: 16px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 .content {
   height: calc(100vh - 98px);
   border-radius: 10px;
@@ -19,6 +32,11 @@ mat-sidenav-container {
   display: flex;
   font-size: 2rem;
   color: lightgray;
+}
+mat-divider {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: white;
 }
 
 mat-sidenav-content {
