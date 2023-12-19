@@ -1,5 +1,10 @@
-.avatar {
+.back-ground-img-blue {
   height: 535px;
   width: 1120px;
+  opacity: 0.9;
   border-radius: 10px;
+  background-size: 100% 100%;
+}
+.back-ground-img-blue:hover {
+  opacity: 1;
 }
