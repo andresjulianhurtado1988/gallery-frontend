@@ -2,11 +2,27 @@
   class="back-ground-img-blue container"
   style="background-image: url('assets/img/fantasy_author.jpg')"
 >
-  <div class="container">
+  <div class="container mt-5 ms-5">
     <div class="row">
-      <div class="col">Column</div>
-      <div class="col">Column</div>
-      <div class="col">Column</div>
+      <div *ngFor="let item of dashboardData" class="col-md-4 mt-5">
+        <div
+          class="card"
+          style="width: 30rem; background-color: rgba(0, 0, 0, 0)"
+        >
+          <img
+            [src]="item.img"
+            class="card-img-top ms-5"
+            alt="..."
+            style="width: 240px; height: 240px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ item.name }}</h5>
+            <p class="card-text">
+              {{ item.notable }}
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

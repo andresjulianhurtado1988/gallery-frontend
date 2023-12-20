@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { dashboardDataData } from 'src/app/global/dashboard-data';
 
 @Component({
   selector: 'app-home',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   public imgAuthors: string = 'assets/img/fantasy_author.jpg';
+  public dashboardData = dashboardDataData.home_data;
   constructor() {}
 }
