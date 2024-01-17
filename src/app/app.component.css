@@ -24,3 +24,12 @@ mat-sidenav-container {
 mat-sidenav-content {
   height: calc(100vh - 65px);
 }
+.back-ground-img-blue {
+
+  opacity: 0.9;
+  border-radius: 10px;
+
+}
+.back-ground-img-blue:hover {
+  opacity: 1;
+}

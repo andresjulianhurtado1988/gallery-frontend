@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public imgAuthors: string = 'assets/img/fantasy_author.jpg';
+
   constructor() {}
 }
